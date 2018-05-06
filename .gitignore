@@ -1,0 +1,11 @@
+
+*.d
+*.gcda
+*.gcno
+*.o
+PoemGenerator_tests
+libPoemGenerator.a
+*.gcov
+gcov_*.txt*
+PoemGenerator_tests.txt
+PoemGenerator.tmproj
