@@ -1,0 +1,14 @@
+//
+// Created by ilya on 06/05/18.
+//
+
+#ifndef POEMGENERATOR_TESTPOEMGENERATOR_H
+#define POEMGENERATOR_TESTPOEMGENERATOR_H
+
+
+class TestPoemGenerator {
+
+};
+
+
+#endif //POEMGENERATOR_TESTPOEMGENERATOR_H
