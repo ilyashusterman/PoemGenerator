@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ilya/CLionProjects/PoemGenerator/main.cpp" "/home/ilya/CLionProjects/PoemGenerator/cmake-build-debug/CMakeFiles/PoemGenerator.dir/main.cpp.o"
-  "/home/ilya/CLionProjects/PoemGenerator/src/PoemGenerator.cpp" "/home/ilya/CLionProjects/PoemGenerator/cmake-build-debug/CMakeFiles/PoemGenerator.dir/src/PoemGenerator.cpp.o"
-  "/home/ilya/CLionProjects/PoemGenerator/tests/AllTests.cpp" "/home/ilya/CLionProjects/PoemGenerator/cmake-build-debug/CMakeFiles/PoemGenerator.dir/tests/AllTests.cpp.o"
-  "/home/ilya/CLionProjects/PoemGenerator/tests/TestPoemGenerator.cpp" "/home/ilya/CLionProjects/PoemGenerator/cmake-build-debug/CMakeFiles/PoemGenerator.dir/tests/TestPoemGenerator.cpp.o"
+  "/home/ilya/Projects/PoemGenerator/main.cpp" "/home/ilya/Projects/PoemGenerator/cmake-build-debug/CMakeFiles/PoemGenerator.dir/main.cpp.o"
+  "/home/ilya/Projects/PoemGenerator/src/PoemGenerator.cpp" "/home/ilya/Projects/PoemGenerator/cmake-build-debug/CMakeFiles/PoemGenerator.dir/src/PoemGenerator.cpp.o"
+  "/home/ilya/Projects/PoemGenerator/tests/AllTests.cpp" "/home/ilya/Projects/PoemGenerator/cmake-build-debug/CMakeFiles/PoemGenerator.dir/tests/AllTests.cpp.o"
+  "/home/ilya/Projects/PoemGenerator/tests/TestPoemGenerator.cpp" "/home/ilya/Projects/PoemGenerator/cmake-build-debug/CMakeFiles/PoemGenerator.dir/tests/TestPoemGenerator.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

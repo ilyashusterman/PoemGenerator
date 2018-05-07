@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/ilya/clion-2018.1.1/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/ilya/clion-2018.1.2/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/ilya/clion-2018.1.1/bin/cmake/bin/cmake -E remove -f
+RM = /home/ilya/clion-2018.1.2/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ilya/CLionProjects/PoemGenerator
+CMAKE_SOURCE_DIR = /home/ilya/Projects/PoemGenerator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ilya/CLionProjects/PoemGenerator/cmake-build-debug
+CMAKE_BINARY_DIR = /home/ilya/Projects/PoemGenerator/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/PoemGenerator.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/PoemGenerator.dir/flags.make
 
 CMakeFiles/PoemGenerator.dir/main.cpp.o: CMakeFiles/PoemGenerator.dir/flags.make
 CMakeFiles/PoemGenerator.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ilya/CLionProjects/PoemGenerator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PoemGenerator.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PoemGenerator.dir/main.cpp.o -c /home/ilya/CLionProjects/PoemGenerator/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ilya/Projects/PoemGenerator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PoemGenerator.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PoemGenerator.dir/main.cpp.o -c /home/ilya/Projects/PoemGenerator/main.cpp
 
 CMakeFiles/PoemGenerator.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PoemGenerator.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ilya/CLionProjects/PoemGenerator/main.cpp > CMakeFiles/PoemGenerator.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ilya/Projects/PoemGenerator/main.cpp > CMakeFiles/PoemGenerator.dir/main.cpp.i
 
 CMakeFiles/PoemGenerator.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PoemGenerator.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ilya/CLionProjects/PoemGenerator/main.cpp -o CMakeFiles/PoemGenerator.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ilya/Projects/PoemGenerator/main.cpp -o CMakeFiles/PoemGenerator.dir/main.cpp.s
 
 CMakeFiles/PoemGenerator.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/PoemGenerator.dir/main.cpp.o.provides.build: CMakeFiles/PoemGenerator
 
 CMakeFiles/PoemGenerator.dir/tests/TestPoemGenerator.cpp.o: CMakeFiles/PoemGenerator.dir/flags.make
 CMakeFiles/PoemGenerator.dir/tests/TestPoemGenerator.cpp.o: ../tests/TestPoemGenerator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ilya/CLionProjects/PoemGenerator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PoemGenerator.dir/tests/TestPoemGenerator.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PoemGenerator.dir/tests/TestPoemGenerator.cpp.o -c /home/ilya/CLionProjects/PoemGenerator/tests/TestPoemGenerator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ilya/Projects/PoemGenerator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PoemGenerator.dir/tests/TestPoemGenerator.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PoemGenerator.dir/tests/TestPoemGenerator.cpp.o -c /home/ilya/Projects/PoemGenerator/tests/TestPoemGenerator.cpp
 
 CMakeFiles/PoemGenerator.dir/tests/TestPoemGenerator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PoemGenerator.dir/tests/TestPoemGenerator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ilya/CLionProjects/PoemGenerator/tests/TestPoemGenerator.cpp > CMakeFiles/PoemGenerator.dir/tests/TestPoemGenerator.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ilya/Projects/PoemGenerator/tests/TestPoemGenerator.cpp > CMakeFiles/PoemGenerator.dir/tests/TestPoemGenerator.cpp.i
 
 CMakeFiles/PoemGenerator.dir/tests/TestPoemGenerator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PoemGenerator.dir/tests/TestPoemGenerator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ilya/CLionProjects/PoemGenerator/tests/TestPoemGenerator.cpp -o CMakeFiles/PoemGenerator.dir/tests/TestPoemGenerator.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ilya/Projects/PoemGenerator/tests/TestPoemGenerator.cpp -o CMakeFiles/PoemGenerator.dir/tests/TestPoemGenerator.cpp.s
 
 CMakeFiles/PoemGenerator.dir/tests/TestPoemGenerator.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/PoemGenerator.dir/tests/TestPoemGenerator.cpp.o.provides.build: CMake
 
 CMakeFiles/PoemGenerator.dir/src/PoemGenerator.cpp.o: CMakeFiles/PoemGenerator.dir/flags.make
 CMakeFiles/PoemGenerator.dir/src/PoemGenerator.cpp.o: ../src/PoemGenerator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ilya/CLionProjects/PoemGenerator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PoemGenerator.dir/src/PoemGenerator.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PoemGenerator.dir/src/PoemGenerator.cpp.o -c /home/ilya/CLionProjects/PoemGenerator/src/PoemGenerator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ilya/Projects/PoemGenerator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PoemGenerator.dir/src/PoemGenerator.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PoemGenerator.dir/src/PoemGenerator.cpp.o -c /home/ilya/Projects/PoemGenerator/src/PoemGenerator.cpp
 
 CMakeFiles/PoemGenerator.dir/src/PoemGenerator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PoemGenerator.dir/src/PoemGenerator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ilya/CLionProjects/PoemGenerator/src/PoemGenerator.cpp > CMakeFiles/PoemGenerator.dir/src/PoemGenerator.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ilya/Projects/PoemGenerator/src/PoemGenerator.cpp > CMakeFiles/PoemGenerator.dir/src/PoemGenerator.cpp.i
 
 CMakeFiles/PoemGenerator.dir/src/PoemGenerator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PoemGenerator.dir/src/PoemGenerator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ilya/CLionProjects/PoemGenerator/src/PoemGenerator.cpp -o CMakeFiles/PoemGenerator.dir/src/PoemGenerator.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ilya/Projects/PoemGenerator/src/PoemGenerator.cpp -o CMakeFiles/PoemGenerator.dir/src/PoemGenerator.cpp.s
 
 CMakeFiles/PoemGenerator.dir/src/PoemGenerator.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/PoemGenerator.dir/src/PoemGenerator.cpp.o.provides.build: CMakeFiles/
 
 CMakeFiles/PoemGenerator.dir/tests/AllTests.cpp.o: CMakeFiles/PoemGenerator.dir/flags.make
 CMakeFiles/PoemGenerator.dir/tests/AllTests.cpp.o: ../tests/AllTests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ilya/CLionProjects/PoemGenerator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/PoemGenerator.dir/tests/AllTests.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PoemGenerator.dir/tests/AllTests.cpp.o -c /home/ilya/CLionProjects/PoemGenerator/tests/AllTests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ilya/Projects/PoemGenerator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/PoemGenerator.dir/tests/AllTests.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PoemGenerator.dir/tests/AllTests.cpp.o -c /home/ilya/Projects/PoemGenerator/tests/AllTests.cpp
 
 CMakeFiles/PoemGenerator.dir/tests/AllTests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PoemGenerator.dir/tests/AllTests.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ilya/CLionProjects/PoemGenerator/tests/AllTests.cpp > CMakeFiles/PoemGenerator.dir/tests/AllTests.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ilya/Projects/PoemGenerator/tests/AllTests.cpp > CMakeFiles/PoemGenerator.dir/tests/AllTests.cpp.i
 
 CMakeFiles/PoemGenerator.dir/tests/AllTests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PoemGenerator.dir/tests/AllTests.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ilya/CLionProjects/PoemGenerator/tests/AllTests.cpp -o CMakeFiles/PoemGenerator.dir/tests/AllTests.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ilya/Projects/PoemGenerator/tests/AllTests.cpp -o CMakeFiles/PoemGenerator.dir/tests/AllTests.cpp.s
 
 CMakeFiles/PoemGenerator.dir/tests/AllTests.cpp.o.requires:
 
@@ -169,7 +169,7 @@ PoemGenerator: CMakeFiles/PoemGenerator.dir/src/PoemGenerator.cpp.o
 PoemGenerator: CMakeFiles/PoemGenerator.dir/tests/AllTests.cpp.o
 PoemGenerator: CMakeFiles/PoemGenerator.dir/build.make
 PoemGenerator: CMakeFiles/PoemGenerator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ilya/CLionProjects/PoemGenerator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable PoemGenerator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ilya/Projects/PoemGenerator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable PoemGenerator"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PoemGenerator.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -189,6 +189,6 @@ CMakeFiles/PoemGenerator.dir/clean:
 .PHONY : CMakeFiles/PoemGenerator.dir/clean
 
 CMakeFiles/PoemGenerator.dir/depend:
-	cd /home/ilya/CLionProjects/PoemGenerator/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ilya/CLionProjects/PoemGenerator /home/ilya/CLionProjects/PoemGenerator /home/ilya/CLionProjects/PoemGenerator/cmake-build-debug /home/ilya/CLionProjects/PoemGenerator/cmake-build-debug /home/ilya/CLionProjects/PoemGenerator/cmake-build-debug/CMakeFiles/PoemGenerator.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ilya/Projects/PoemGenerator/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ilya/Projects/PoemGenerator /home/ilya/Projects/PoemGenerator /home/ilya/Projects/PoemGenerator/cmake-build-debug /home/ilya/Projects/PoemGenerator/cmake-build-debug /home/ilya/Projects/PoemGenerator/cmake-build-debug/CMakeFiles/PoemGenerator.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/PoemGenerator.dir/depend
 

@@ -4,12 +4,21 @@
 
 #include "TestPoemGenerator.h"
 #include "CppUTest/TestHarness.h"
+#include "../src/PoemGenerator.h"
 
 TEST_GROUP(FirstTestGroup)
 {
+    PoemGenerator* poemgenerator;
+    void setup(){
+        poemgenerator = new PoemGenerator();
+    }
+    void teardown()
+    {
+        delete poemgenerator;
+    }
 };
 
 TEST(FirstTestGroup, FirstTest)
 {
-    STRCMP_EQUAL("world", "world");
+    LONGS_EQUAL(poemgenerator->applyRow(), 2);
 }
