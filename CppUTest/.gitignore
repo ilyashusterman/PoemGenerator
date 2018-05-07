@@ -5,6 +5,9 @@
 *.d
 *.o
 *.a
+!.gitignore
+!libCppUTest.a
+!libCppUTestExt.a
 .settings
 *doxygen*
 *.gcov

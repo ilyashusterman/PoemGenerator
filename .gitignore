@@ -5,6 +5,9 @@
 *.o
 PoemGenerator_tests
 libPoemGenerator.a
+!.gitignore
+!libCppUTest.a
+!libCppUTestExt.a
 *.gcov
 gcov_*.txt*
 PoemGenerator_tests.txt
