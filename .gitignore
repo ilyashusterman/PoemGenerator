@@ -10,3 +10,4 @@ gcov_*.txt*
 PoemGenerator_tests.txt
 PoemGenerator.tmproj
 cmake-build-debug
+.idea

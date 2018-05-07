@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/PoemGenerator.dir/main.cpp.o CMakeFiles/PoemGenerator.dir/tests/TestPoemGenerator.cpp.o CMakeFiles/PoemGenerator.dir/src/PoemGenerator.cpp.o CMakeFiles/PoemGenerator.dir/tests/AllTests.cpp.o  -o PoemGenerator 
